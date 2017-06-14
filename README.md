@@ -1,31 +1,31 @@
-Panel Im醙enes 0.9
+Panel Im谩genes 0.9
 ================================
 
-Aplicaci髇 desarrollada en Java que implementa un panel donde mostraremos im醙enes en formato .png.
-Permite visualizar una lista de im醙enes posibilitando la navegaci髇 entre 閟tas de atras hacia 
+Aplicaci贸n desarrollada en Java que implementa un panel donde mostraremos im谩genes en formato .png.
+Permite visualizar una lista de im谩genes posibilitando la navegaci贸n entre 茅stas de atr谩s hacia 
 adelante y viceversa.
 
-Desde el programa podremos cargar un directorio de im醙enes y visualizarlas una a una, obteniendo 
-a su vez informaci髇 sobre las mismas, como su nombre, ruta, tama駉 y resoluci髇.
+Desde el programa podremos cargar un directorio de im谩genes y visualizarlas una a una, obteniendo 
+a su vez informaci贸n reelevante sobre las mismas, como su nombre, ruta, tama帽o y resoluci贸n.
 
-El proyecto hace uso de una interfaz gr醘ica y diferentes elementos multimedia para dotar
-a la aplicaci髇 de un mayor atractivo visual.
+El proyecto hace uso de una interfaz gr谩fica y diferentes elementos multimedia para dotar
+a la aplicaci贸n de un mayor atractivo visual.
 
-Para facilitar la puesta en marcha de la aplicaci髇 se proporciona un ejecutable .jar con el 
-proyecto construido y listo para ser ejecutado de manera gr醘ica, adem醩 se incluyen varias im醙enes
-en formato .png (alojadas en la carpeta 'src/recursos') para poder probar la aplicaci髇.
+Para facilitar la puesta en marcha del programa se proporciona un ejecutable .jar con el 
+proyecto construido y listo para ser ejecutado de manera gr谩fica, adem谩s se incluyen varias im谩genes
+en formato .png (alojadas en la carpeta 'src/recursos') para poder probar la aplicaci贸n.
 
 ## Requisitos
-- [Java] 7 o superior (para ejecutar la Aplicaci髇)
+- [Java] 7 o superior (para ejecutar la Aplicaci贸n)
 
 ## Entorno de desarrollo
-La Aplicaci髇 ha sido desarrollada utilizando el IDE [NetBeans] pero tambi閚 es posible su 
-importanci髇 en [Eclipe] y dem醩 IDE's.
+La Aplicaci贸n ha sido desarrollada utilizando el IDE [NetBeans] pero tambi茅n es posible su 
+importanci贸n en [Eclipe] y dem谩s IDE's.
 
 ## Licencia
-Esta aplicaci髇 se ofrece bajo licencia [GPL versi髇 3].
+Esta aplicaci贸n se ofrece bajo licencia [GPL versi贸n 3].
 
-[GPL versi髇 3]: https://www.gnu.org/licenses/gpl-3.0.en.html
+[GPL versi贸n 3]: https://www.gnu.org/licenses/gpl-3.0.en.html
 [NetBeans]: https://netbeans.org/
 [Eclipe]: https://eclipse.org/
 [Java]: https://www.java.com/
