@@ -7,17 +7,41 @@ import java.io.IOException;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 
-
+/**
+ * Clase GestionVentana que extiende de JToolBar. 
+ * Se encarga de generar los funcionalidades necesarias para implementar 
+ * los métodos de control y gestión de nuestro programa.
+ *
+ * @author Odei
+ * @version 22.09.2013
+ */
 public class GestionVentana extends JToolBar {
-
+    /**
+     * Variable entera usada para almacenar el valor de la imagen mostrada.
+     */
     protected int indice;
     
+    /**
+     * Variable booleana usada para saber si hay imágenes cargadas o no.
+     */
     protected boolean sw;
     
+    /**
+     * Variable de tipo cadena usada para almacenar la Ruta del directorio 
+     * donde estan almacenadas las imágenes que usaremos en el Programa.
+     */
     protected static final String ruta = "src/recursos/";
     
+    /**
+     * Variable arraylist usada para almacenar el conjunto de imágenes cargadas.
+     */
     protected ArrayList<String>imagenes;
     
+    /**
+     * Constructor principal de la clase GestionVentana.
+     * Inicializa las variables y diferentes elementos multimedia utilizados 
+     * durante la ejecución de la aplicación.
+     */
     public GestionVentana() {
         sw = false;
         imagenes = null;
@@ -31,9 +55,17 @@ public class GestionVentana extends JToolBar {
             add(btn);
         }
     }
-
+    
+    /**
+     * Escuchador de eventos usado para capturar las opciones utilizadas 
+     * con el puntero durante la ejecución de la aplicación.
+     */
     public class VigilaBotones extends MouseAdapter {
         @Override
+        /**
+         * Método usado para capturar el evento click lanzado por el ratón.
+         * @param e MouseEvent: evento lanzado por el puntero
+         */
         public void mouseClicked(MouseEvent e) {
             switch (e.getComponent().getName()) {
                 case "abrir":
@@ -82,6 +114,10 @@ public class GestionVentana extends JToolBar {
             }
         }
         
+        /**
+         * Método usado para cambiar la imagen actual mostrada en la interfaz.
+         * @param i int: índice de la imagen a cargar
+         */
         protected void cambiaImagen(int i) {
             try {
                 Ventana.division.setBottomComponent(new JScrollPane(
