@@ -1,9 +1,9 @@
 Panel Imágenes 0.9
 ================================
 
-Aplicación desarrollada en Java que implementa un panel donde mostraremos imágenes en formato .png.
-Permite visualizar una lista de imágenes posibilitando la navegación entre éstas de atrás hacia 
-adelante y viceversa.
+Aplicación desarrollada en Java que implementa un panel donde mostraremos una serie de imágenes 
+en formato .png. Permite visualizar una lista de imágenes posibilitando la navegación entre éstas 
+de atrás hacia adelante y viceversa.
 
 Desde el programa podremos cargar un directorio de imágenes y visualizarlas una a una, obteniendo 
 a su vez información reelevante sobre las mismas, como su nombre, ruta, tamaño y resolución.
