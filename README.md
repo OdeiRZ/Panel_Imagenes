@@ -19,7 +19,7 @@ en formato .png (alojadas en la carpeta 'src/recursos') para poder probar la apl
 - [Java] 7 o superior (para ejecutar la Aplicación)
 
 ## Entorno de desarrollo
-La Aplicación ha sido desarrollada utilizando el IDE [NetBeans] pero también es posible su 
+La aplicación ha sido desarrollada utilizando el IDE [NetBeans] pero también es posible su 
 importanción en [Eclipe] y demás IDE's.
 
 ## Licencia
