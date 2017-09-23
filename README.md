@@ -11,7 +11,7 @@ a su vez información reelevante sobre las mismas, como su nombre, ruta, tamaño
 El proyecto hace uso de una interfaz gráfica y diferentes elementos multimedia para dotar
 a la aplicación de un mayor atractivo visual.
 
-Para facilitar la puesta en marcha del programa se proporciona un ejecutable .jar con el 
+Para facilitar la puesta en marcha del programa, se proporciona un ejecutable .jar con el 
 proyecto construido y listo para ser ejecutado de manera gráfica, además se incluyen varias imágenes
 en formato .png (alojadas en la carpeta 'src/recursos') para poder probar la aplicación.
 
